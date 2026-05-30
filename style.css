@@ -257,3 +257,48 @@ a {
   border-radius: 50%;
   margin-top: -6px;
 }
+
+.album{
+    display: flex;
+    align-items: center;
+}
+.album-img{
+    
+    height: 3.5rem;
+    width: 3.5rem;
+
+}
+.album-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+.album-content{
+    padding-left: 0.8rem;
+    padding-right: 0.9rem;
+}
+.song-name,.artist-name{
+    margin: 0;
+}
+.song-name{
+    font-size: 0.8rem;
+  font-weight: 500;
+}
+.artist-name{
+     margin-top: 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.add-logo{
+   display: flex;
+    align-items: center;
+      font-size: 0.8rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.add-logo:hover{
+    opacity: 1;
+    cursor: pointer;
+}
